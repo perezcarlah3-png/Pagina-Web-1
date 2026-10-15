@@ -1,0 +1,309 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff9f6;
+
+}
+.navbar {
+    background-color: #702f40 !important; 
+
+}
+.seccion-inicio {
+    position: relative;
+    width: 100%;
+    height: 98vh;
+    overflow: hidden;
+}
+
+.img-incio {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("IMAGEN_LUMé/1.Inicio\ MUJER\ 1.jfif");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+.fondo-opaco {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    z-index: 1;
+}
+
+.contenido-inicio {
+
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-left: 1rem;
+    margin-top: 2rem;
+
+}
+
+.titulo-principal {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.subtitulo {
+    color: white;
+    font-size: 1.8rem;
+}
+
+.boton-inicio{
+    margin-top: 3%;
+    margin-left: 7%;
+}
+
+.boton {
+
+    background-color: #c58f98;
+    border: 2px solid white;
+    border-radius: 2rem;
+    font-size: 2rem;
+    padding: 1rem 1rem;
+    transition: 0.3s;
+}
+
+.boton:hover {
+    background-color:#c58f98;
+    color: white;
+    transform: scale(1.08);
+}
+
+/* inicio */
+/* seccion */
+
+#secciones
+{
+    height:10%;
+    background-color: #c58f98;
+    padding: 1rem;
+    text-align: left;
+}
+
+.subtitulo-seccion{
+    font-size: 1.2rem;
+    color: white;
+    margin: .05rem;
+    justify-content: center;
+}
+
+/* seccion */
+
+#Belleza
+{  
+    background-color:#fff9f6;
+    padding-top: 1rem;
+   
+}
+
+.card-body{
+    background-color:#f3e4e5;
+    
+}
+
+.card-textos
+{
+    font-size: 1rem;
+    font-weight: 90%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color:#343034;
+}
+.card {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, background-color 0.4s ease;
+}
+.card img{
+    max-width: 100%;
+    height: auto;
+}
+
+.card:hover {
+    background-color: #702f40;
+    transform:translateZ(2%);
+}
+
+.servicios{
+    display: flex;
+    width: 100%;
+}
+.servicios span{
+width:100%;
+background-color:#702f40;
+border: solid .15px #f3e4e5;
+border-radius: 1rem;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 1.3rem;
+margin: 0.1rem;
+text-align:center;
+color: #f3e4e5;
+font-weight: bold;
+      
+}
+
+/* Carruseles */
+#Carruseles{
+    background-color:#f3e4e5;
+    padding: 1rem;
+    
+  }
+.Texto-carrusel{
+width:100%;
+background-color:#f3e4e5;
+border: solid .15px #f3e4e5;
+border-radius: 1rem;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 1.3rem;
+margin: 0.1rem;
+text-align:center;
+color: #702f40;
+font-weight: bold;
+
+}
+#Testimonios
+ {
+    background-color:#fff9f6;
+    padding-top: 1rem;
+
+} 
+#contacto
+{
+    height: 50%;
+    padding: 2rem;
+    text-align: center;
+    background-color: #f3e4e5;
+    
+}
+
+.contenido-productos {
+
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.Contenido-formulario {
+
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+form
+{
+    background-color:#c58f98;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 1px solid #702f40;
+    box-shadow:0 4px 8px;
+ }
+
+ .form-control{
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+ }
+
+
+ .box-form-1{
+    padding: .8rem;
+ }
+
+ .Icon-usuario {
+   font-size: 35px;
+ }
+
+ .Boton-form{
+    margin-top: 3%;
+}
+
+.Links{
+    padding: .6rem;
+}    
+
+
+/* footer */
+
+footer {
+    align-self: center;
+    text-align: center;
+    height: 100%;
+    background-color:  #702f40;
+    padding: 40px;
+
+}
+
+.Texto-Enlaces a {
+    color: white !important;
+
+}
+
+
+
+
+
+/* Evita que los elementos superen el ancho disponible */
+* {
+    box-sizing: border-box;
+}
+
+/* Adaptar las tarjetas */
+.card {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+}
+
+/* Adaptar los formularios */
+form {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+}
+
+/* Evita que los campos se salgan del formulario */
+input,
+select,
+textarea,
+button {
+    max-width: 100%;
+}
+
+/* Ajustes para celulares */
+@media (max-width: 768px) {
+ 
+    form {
+        padding: 1rem;
+    }
+}
