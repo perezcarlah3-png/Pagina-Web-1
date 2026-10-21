@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="LUMÉ.css">
+    <link rel="stylesheet" href="biblioteca/aos-master/dist/aos.css">
+    <link rel="stylesheet" href="biblioteca/bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="biblioteca/fontawesome-free-7.3.1-web/css/all.min.css">
+</head>
+<body>
+    
+<!-- Barra de navegación-->    
+
+<nav class="navbar text width fixed-top navbar-dark bg-opacity-50 navbar-expand-lg mi-navbar">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">LUMÉ</a>
+        <a class="navbar-brand position-absolute top-0 start-50 translate-middle-x mt-2" href="#">BELLEZA  ·  BIENESTAR</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="C:\Users\Usuario\Desktop\prog 2\WEB_LUMÉ\index.html#Inicio">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#secciones-Productos">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="C:\Users\Usuario\Desktop\prog 2\WEB_LUMÉ\index.html#Carruseles">Favoritos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#contacto">Mi Cuenta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#contacto">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"><i class="fa-solid fa-magnifying-glass"href=""></a></i></a>
+                </li>
+                  <li id-carro class="nav-item">
+                 <a class="nav-link" href="#Carrito-Detalle"><i class="fa-solid fa-cart-shopping"></i><span id="contador-carrito">0</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Barra de navegación-->
+ <!-- seccion -->
+
+<section id="secciones-Productos">
+    <div class="conteiner">
+    <h2 class="subtitulo-seccion">Productos</h2>
+    </div>        
+</section>
+
+<!-- seccion -->
+
+<!-- Productos -->
+
+<section id="Productos"
+  class="productos-section py-5">
+  <div class="container">
+
+    <div class="row row-cols-1 row-cols-sm-2
+                row-cols-lg-4 g-4">
+
+      <!-- Producto 1 -->
+      <div class="col">
+        <div class="card producto-card h-100">
+
+          <div class="producto-imagen">
+            <img src="IMAGEN_LUMé/piel r2.jpg"
+                 alt="Kit Básico de Skincare"
+                 class="card-img-top">
+          </div>
+
+          <div class="card-body d-flex flex-column">
+            <h5 class="producto-nombre">Kit Piel Radiante</h5>
+
+            <p class="producto-descripcion">
+              Rutina facial de 3 pasos diseñada para limpiar, 
+              tratar e hidratar la piel, 
+              ayudando a unificar el tono y aportar luminosidad.
+            </p>
+
+            <div class="mt-auto">
+              <p class="producto-precio">$110.000</p>
+
+              <button class="btn btn-carrito w-100 agregar-carrito"
+              type="button"
+              data-id="KitPielRadiante">
+              <i class="fa-solid fa-cart-shopping"></i>
+              Agregar al carrito 
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Producto 2 -->
+      <div class="col">
+        <div class="card producto-card h-100">
+
+          <div class="producto-imagen">
+            <img src="IMAGEN_LUMé/tru face.jfif"
+                 alt="Serum anti edad"
+                 class="card-img-top">
+          </div>
+
+          <div class="card-body d-flex flex-column">
+            <h5 class="producto-nombre">Serum ageLoc</h5>
+
+            <p class="producto-descripcion">
+              son un tratamiento concentrado en cápsulas 
+              diseñado para mejorar la firmeza, 
+              la elasticidad y la definición del contorno facial.
+            </p>
+
+            <div class="mt-auto">
+              <p class="producto-precio">$120.000</p>
+
+              <button class="btn btn-carrito w-100 agregar-carrito"
+              type="button"
+              data-id="SerumageLoc">
+              <i class="fa-solid fa-cart-shopping"></i>
+              Agregar al carrito 
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Producto 3 -->
+      <div class="col">
+        <div class="card producto-card h-100">
+
+          <div class="producto-imagen">
+            <img src="IMAGEN_LUMé/ap24.jpg"
+                 alt="Pasta de Dientes"
+                 class="card-img-top">
+          </div>
+
+          <div class="card-body d-flex flex-column">
+            <h5 class="producto-nombre">AP24 Toothpaste</h5>
+
+            <p class="producto-descripcion">
+              es una pasta dental en gel, diseñada para blanquear 
+              y proteger los dientes sin dañar el esmalte.
+            </p>
+
+            <div class="mt-auto">
+              <p class="producto-precio">$30.000</p>
+
+              <button class="btn btn-carrito w-100 agregar-carrito"
+              type="button"
+              data-id="AP24">
+              <i class="fa-solid fa-cart-shopping"></i>
+              Agregar al carrito 
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      
+      <!-- Producto 4 -->
+      <div class="col">
+        <div class="card producto-card h-100">
+
+          <div class="producto-imagen">
+            <img src="IMAGEN_LUMé/Scion.jpeg"
+                 alt="Desodorante"
+                 class="card-img-top">
+          </div>
+
+          <div class="card-body d-flex flex-column">
+            <h5 class="producto-nombre">Scion Desodorante</h5>
+
+            <p class="producto-descripcion">  
+              Diseñado para ofrecer protección diaria mientras ayuda a aclarar, 
+              suavizar y mantener fresca la piel de las zonas más sensibles como las axilas.
+            </p>
+
+            <div class="mt-auto">
+              <p class="producto-precio">$20.000</p>
+
+              <button class="btn btn-carrito w-100 agregar-carrito"
+              type="button"
+              data-id="Scion">
+              <i class="fa-solid fa-cart-shopping"></i>
+              Agregar al carrito 
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+
+
+<!--  Productos-->
+ <!-- seccion -->
+
+<section id="secciones-Dispositivos">
+    <div class="conteiner">
+    <h2 class="subtitulo-seccion">Dispositivos</h2>
+    </div>
+</section>
+  
+<!-- seccion -->
+
+<!-- Productos -->
+
+<section id="Dispositivos"
+  class="productos-section py-5">
+  <div class="container">
+
+    <div class="row row-cols-1 row-cols-sm-2
+                row-cols-lg-4 g-4">
+
+      <!-- Dispositivos 1 -->
+      <div class="col">
+        <div class="card producto-card h-100">
+
+          <div class="producto-imagen">
+            <img src="IMAGEN_LUMé/lumi 2.jpg"
+                 alt="Dispositivo de limpieza facial"
+                 class="card-img-top">
+          </div>
+
+          <div class="card-body d-flex flex-column">
+            <h5 class="producto-nombre">LumiSpa iO</h5>
+
+            <p class="producto-descripcion">
+              Dispositivo de limpieza y renovación facial 
+              recargable que utiliza tecnología de 
+              oscilación de micropulso y rotación inversa
+            </p>
+
+            <div class="mt-auto">
+              <p class="producto-precio">$450.000</p>
+
+              <button class="btn btn-carrito w-100 agregar-carrito"
+              type="button"
+              data-id="LumiSpa">
+              <i class="fa-solid fa-cart-shopping"></i>
+              Agregar al carrito 
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Dispositivo 2 -->
+      <div class="col">
+        <div class="card producto-card h-100">
+
+          <div class="producto-imagen">
+            <img src="IMAGEN_LUMé/Galv 1.jpg"
+                 alt="Galvanica"
+                 class="card-img-top">
+          </div>
+
+          <div class="card-body d-flex flex-column">
+            <h5 class="producto-nombre">Galvanic Spa</h5>
+
+            <p class="producto-descripcion">
+             Dispositivo que utiliza corrientes galvánicas para potenciar 
+             la absorción de ingredientes antiedad en
+            la piel del rostro, el cuerpo y el cuero cabelludo
+            </p>
+
+            <div class="mt-auto">
+              <p class="producto-precio">$425.000</p>
+
+              <button class="btn btn-carrito w-100 agregar-carrito"
+              type="button"
+              data-id="Galvanica">
+              <i class="fa-solid fa-cart-shopping"></i>
+              Agregar al carrito 
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Dispositivo 3 -->
+      <div class="col">
+        <div class="card producto-card h-100">
+
+          <div class="producto-imagen">
+            <img src="IMAGEN_LUMé/boostt1.jpg"
+                 alt="Boost"
+                 class="card-img-top">
+          </div>
+
+          <div class="card-body d-flex flex-column">
+            <h5 class="producto-nombre">ageLOC Boost</h5>
+
+            <p class="producto-descripcion">
+              Dispositivo facial que usa microcorriente de pulso variable activa
+               y revitaliza la piel en solo 2 minutos al día, 
+               aportando mayor luminosidad, volumen y un tono uniforme.
+            </p>
+
+            <div class="mt-auto">
+              <p class="producto-precio">$300.000</p>
+
+              <button class="btn btn-carrito w-100 agregar-carrito"
+              type="button"
+              data-id="Boost">
+              <i class="fa-solid fa-cart-shopping"></i>
+              Agregar al carrito 
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      
+      <!-- Dispositivo 4 -->
+      <div class="col">
+        <div class="card producto h-100">
+
+          <div class="producto-imagen">
+            <img src="IMAGEN_LUMé/welll1.jpg"
+                 alt="Well"
+                 class="card-img-top">
+          </div>
+
+          <div class="card-body d-flex flex-column">
+            <h5 class="producto-nombre">Well Spa iO</h5>
+
+            <p class="producto-descripcion">  
+              Dispositivo que combina microcorriente adaptativa y nódulos metálicos 
+              para masajear la piel, estimular el drenaje linfático,
+              reducir la retención de líquidos y mejorar la firmeza corporal.
+            </p>
+
+            <div class="mt-auto">
+              <p class="producto-precio">$450.000</p>
+
+              <button class="btn btn-carrito w-100 agregar-carrito"
+              type="button"
+              data-id="Well">
+              <i class="fa-solid fa-cart-shopping"></i>
+              Agregar al carrito 
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section> 
+
+<!-- Dispositivos -->
+<!-- seccion -->
+
+<section id="secciones-Bienestar">
+    <div class="conteiner">
+    <h2 class="subtitulo-seccion">Salud y Bienestar</h2>
+    </div>
+</section>
+  
+<!-- seccion -->
+
+<!-- Bienestar -->
+
+<section id="Bienestar"
+  class="productos-section py-5">
+  <div class="container">
+
+    <div class="row row-cols-1 row-cols-sm-2
+                row-cols-lg-4 g-4">
+
+      <!-- Bienestar 1 -->
+      <div class="col">
+        <div class="card producto-card h-100">
+
+          <div class="producto-imagen">
+            <img src="IMAGEN_LUMé/COL2.jfif"
+                 alt="Colageno"
+                 class="card-img-top">
+          </div>
+
+          <div class="card-body d-flex flex-column">
+            <h5 class="producto-nombre">Beauty focus Collagen</h5>
+
+            <p class="producto-descripcion">
+              Suplemento dietario a base de colágeno hidrolizado 
+              formulado para nutrir, hidratar y mejorar la firmeza 
+              y elasticidad de la piel desde el interior
+            </p>
+
+            <div class="mt-auto">
+              <p class="producto-precio">$100.000</p>
+
+              <button class="btn btn-carrito w-100 agregar-carrito"
+              type="button"
+              data-id="Colageno">
+              <i class="fa-solid fa-cart-shopping"></i>
+              Agregar al carrito 
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Bienestar 2 -->
+      <div class="col">
+        <div class="card producto-card h-100">
+
+          <div class="producto-imagen">
+            <img src="IMAGEN_LUMé/Omega.jfif"
+                 alt="Omega3"
+                 class="card-img-top">
+          </div>
+
+          <div class="card-body d-flex flex-column">
+            <h5 class="producto-nombre">Optimum Omega3</h5>
+
+            <p class="producto-descripcion">
+             Suplemento dietario que ayuda a fortalecer la barrera protectora
+             de la piel, reducir la inflamación y retener la humedad.
+            </p>
+
+            <div class="mt-auto">
+              <p class="producto-precio">$95.000</p>
+
+              <button class="btn btn-carrito w-100 agregar-carrito"
+              type="button"
+              data-id="Omega3">
+              <i class="fa-solid fa-cart-shopping"></i>
+              Agregar al carrito 
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Bienestar 3 -->
+      <div class="col">
+        <div class="card producto-card h-100">
+
+          <div class="producto-imagen">
+            <img src="IMAGEN_LUMé/nu bi.jpg"
+                 alt="NuBi"
+                 class="card-img-top">
+          </div>
+
+          <div class="card-body d-flex flex-column">
+            <h5 class="producto-nombre">Nu Biome</h5>
+
+            <p class="producto-descripcion">
+             Suplemento alimenticio en polvo, formulado para 
+             mejorar la salud digestiva, reducir la hinchazón 
+             abdominal y equilibrar la microbiota intestinal.
+            </p>
+
+            <div class="mt-auto">
+              <p class="producto-precio">$120.000</p>
+
+              <button class="btn btn-carrito w-100 agregar-carrito"
+              type="button"
+              data-id="NuBi">
+              <i class="fa-solid fa-cart-shopping"></i>
+              Agregar al carrito 
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      
+      <!-- Bienestar 4 -->
+      <div class="col">
+        <div class="card producto h-100">
+
+          <div class="producto-imagen">
+            <img src="IMAGEN_LUMé/LifePak.jfif"
+                 alt="LifePak"
+                 class="card-img-top">
+          </div>
+
+          <div class="card-body d-flex flex-column">
+            <h5 class="producto-nombre">Life Pak</h5>
+
+            <p class="producto-descripcion">  
+              Suplemento nutricional diario 
+              que aporta más de 20 a 25 vitaminas, 
+              minerales y fitonutrientes esenciales.
+            </p>
+
+            <div class="mt-auto">
+              <p class="producto-precio">$95.000</p>
+
+              <button class="btn btn-carrito w-100 agregar-carrito"
+              type="button"
+              data-id="LifePak">
+              <i class="fa-solid fa-cart-shopping"></i>
+              Agregar al carrito 
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section> 
+
+<!-- Salud -->
+
+
+<!-- seccion -->
+
+<section id="secciones">
+    <div class="conteiner">
+    <h2 class="subtitulo-seccion"> Hablemos </h2>
+    </div>
+</section>
+  
+<!-- seccion -->
+
+<!-- Contacto -->
+ 
+    <section class="seccion-acceso" id="contacto">
+
+    <!-- VIDEO DE FONDO -->
+    <video class="video-fondo" autoplay muted loop playsinline>
+        <source src="IMAGEN_LUMé/video final2.mp4" type="video/mp4">
+    </video>
+
+    <!-- CAPA BORDÓ SOBRE EL VIDEO -->
+    <div class="capa-bordo"></div>
+
+    <!-- CONTENIDO -->
+    <div class="contenido-acceso">
+
+ <!-- COLUMNA 1: FORMULARIO CONTACTO -->
+        <div class="panel-transparente">
+            <h2>Hablemos</h2>
+            <p class="subtitulo">
+                Estoy acá para asesorarte personalmente.
+            </p>
+
+            
+                <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Tu nombre"
+                        autocomplete="name"
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="email-contacto">Correo electrónico</label>
+                    <input
+                        type="email"
+                        id="email-contacto"
+                        name="email"
+                        placeholder="Tu correo electrónico"
+                        autocomplete="email"
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        rows="2"
+                        placeholder="¿En qué puedo ayudarte?"
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="boton-bordo">
+                    Enviar mensaje
+                </button>
+            </div>
+
+
+     <!-- FORMULARIO DEL CARRITO    -->
+   <div class="panel-carrito" id="Carrito-Detalle">
+
+    <div class="encabezado-carrito">
+        <div>
+            <h2>Mi carrito</h2>
+            <p class="subtitulo-carrito">
+                Tus favoritos de belleza, listos para vos.
+            </p>
+            <span class="detalle-carrito">TU SELECCIÓN</span>
+          </div>  
+        </div>
+
+        <div class="icono-carrito">
+            🛍
+            <span class="contador-carrito"
+            id="contador-carrito-panel">0</span>
+        </div>
+    
+    
+
+    <!-- AQUÍ SE CARGAN LOS PRODUCTOS -->
+    <div class="lista-productos-carrito"
+         id="lista-productos-carrito">
+    </div>
+  <a href="#Carrito-Detalle"
+   class="link-vaciar"
+   onclick="VaciarCarrito(); return false;">
+    Vaciar carrito
+</a>
+
+    <!-- RESUMEN FIJO -->
+    <div class="resumen-carrito">
+        <div class="fila-resumen">
+            <span>Subtotal</span>
+            <strong id="subtotal-carrito">$ 0</strong>
+        </div>
+
+        <div class="fila-resumen total-carrito">
+            <span>Total</span>
+            <strong id="total-carrito">$ 0</strong>
+        </div>
+    </div>
+    <p class="nota-carrito">Gracias por elegirnos ♡</p>
+
+    <button type="button"
+            class="boton-finalizar"
+            id="finalizar-Compra">
+        Finalizar compra <span>→</span>
+    </button>
+
+    
+
+</div>
+
+
+    <!-- COLUMNA 3: MENSAJE VISUAL -->
+        <div class="panel-presentacion">
+            <span class="detalle">BELLEZA · BIENESTAR</span>
+
+            <h2>Tu mejor versión comienza con vos.</h2>
+
+            <div class="linea-decorativa"></div>
+
+            <p>
+                Descubrí una forma de cuidarte,
+                sentirte bien y dedicarte el tiempo
+                que merecés.
+            </p>
+
+            <a href="#contacto" class="enlace-presentacion">
+                CONECTEMOS
+            </a>
+        </div>
+</div>
+
+    
+</section>
+
+
+   <!-- PIE DE PÁGINA  -->
+<footer class="footer-lume py-5 text-white">
+    <div class="container">
+        <div class="row g-4 justify-content-between">
+
+            <!-- Columna 1: Marca y descripción -->
+            <div class="col-12 col-md-3" data-aos="fade-up" data-aos-duration="800">
+                <h3 class="h4 fw-bold mb-3">LUMÉ</h3>
+                <p class="text-light">
+                    BELLEZA · BIENESTAR
+                </p>
+                <p class="text-light">
+                    <div>Cuidá de vos ahora y siempre.</div>
+                    <div>Productos y asesoría para tu belleza y bienestar.</div>
+                 </p>
+            </div>
+
+            <!-- Columna 2: Enlaces -->
+            <div class="col-12 col-md-2" data-aos="fade-up" data-aos-duration="800">
+                
+                <h3 class="h4 fw-bold mb-3">Enlaces</h3>
+                <div class="Texto-Enlaces">
+                <p class="text-light">
+                  <div><a href="C:\Users\Usuario\Desktop\prog 2\WEB_LUMÉ\index.html#inicio">Inicio </a></div>
+                  <div><a href="#secciones-Productos">Productos </a></div>
+                  <div><a href="C:\Users\Usuario\Desktop\prog 2\WEB_LUMÉ\index.html#Carruseles">Favoritos </a></div> 
+                  <div><a href="#contacto">Mi Cuenta</a></div>
+                  <div><a href="#contacto">Contacto </a></div>     
+                </p>
+                </div>
+            </div>
+
+            <!-- Columna 3: Legales -->
+            <div class="col-12 col-md-2" data-aos="fade-up" data-aos-duration="800">
+                <h3 class="h4 fw-bold mb-3">Legales</h3>
+                <p class="text-light">
+                    <div>Términos y condiciones</div>
+                    <div>Política de privacidad </div>
+                    <div>Uso de cookies</div>
+                </p>
+            </div>
+            <!-- Columna 4: Contacto y redes -->
+                <div class="col-12 col-md-3" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+                <h3 class="h4 fw-bold mb-4">Seguinos</h3>
+                <div class="d-flex gap-2 mb-3">
+                    <a href="#https://www.instagram.com/carlaperez.global?obrf=MWdndndnbHUyNmpmcg==" target="_blank" rel="noopener noreferrer"
+                     class="btn btn-outline-light btn-lg rounded-pill shadow" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="btn btn-outline-light btn-lg rounded-pill shadow" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="btn btn-outline-light btn-lg rounded-pill shadow" aria-label="Facebook"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#" class="btn btn-outline-light btn-lg rounded-pill shadow" aria-label="Facebook"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <a href="https://wa.me/5493562123456" target="_blank" class="btn btn-success w-100 ">
+                    Consultar por WhatsApp
+                </a>
+            </div>
+
+        </div>
+        <hr class="my-4 ">
+
+
+    </div>
+</footer>
+</section>
+
+
+
+<script src="biblioteca/bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.min.js" > </script>
+    <script src="biblioteca/fontawesome-free-7.3.1-web/js/all.min.js"></script>
+    <script src="biblioteca/aos-master/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="carrito.js"></script>
+</body>
+
+
+</html>
